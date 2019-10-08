@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>OfferLeader</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+    <!-- Tab icon -->
+    <link rel="icon" href="img/favicon-32x32.png">
+</head>
+<body>
+  <!-- HEADER -->
+ <header>
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color fixed-top">
+    <div class="container">
+  <a class="navbar-brand" href="./index.html">
+    <img src="img/logo.png" alt="" class="nav_brand">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-2 first_nav">
+    
+<!-- EN -->
+
+      <li class="nav-item en">
+        <a class="nav-link a_m" href="#">Affiliates</a>
+      </li>
+
+      <li class="nav-item en">
+        <a class="nav-link a_m" href="#">Offers</a>
+      </li>
+      <li class="nav-item en">
+          <a class="nav-link a_m" href="#">Reviews</a>
+        </li>
+      <li class="nav-item en">
+          <a class="nav-link a_m" href="#">FAQ</a>
+      </li>
+      <!-- RU -->
+      <li class="nav-item ru">
+          <a class="nav-link a_m" href="#">Вебмастеру</a>
+        </li>
+
+        <li class="nav-item ru">
+          <a class="nav-link a_m" href="#">Офферы</a>
+        </li>
+        <li class="nav-item ru">
+            <a class="nav-link a_m" href="#">Отзывы</a>
+          </li>
+        <li class="nav-item ru">
+            <a class="nav-link a_m" href="#">FAQ</a>
+        </li>
+        <!-- // -->
+    </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+
+      <li class="nav-item en" id="log_in">
+        <a class="nav-link waves-effect waves-light">
+          Log in
+        </a>
+      </li>
+      <li class="nav-item en active_m" id="sing_up">
+        <a class="nav-link waves-effect waves-light">
+          Sing up
+        </a>
+
+      </li>
+      <li class="nav-item ru" id="log_in_ru">
+          <a class="nav-link waves-effect waves-light">
+            Авторизация
+          </a>
+        </li>
+        <li class="nav-item ru active_m" id="sing_up_ru">
+          <a class="nav-link waves-effect waves-light">
+              Регистрация
+
+          </a>
+        </li>
+<!-- RU -->
+
+
+  
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+  
+
+      <li class="nav-item lang" >
+          <a class="nav-link waves-effect waves-light" id="lang_en">
+            En
+          </a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light no_active">
+              /
+            </a>
+  
+          </li>
+        <li class="nav-item no_bor">
+            <a class="nav-link waves-effect waves-light" id="lang_ru">
+              Ru
+            </a>
+  
+        </li>
+    </ul>
+  </div>
+
+    </div>
+</nav>
+<!--/.Navbar -->
+ </header>
+ <!-- ///////// -->
+ <main>
+   <!-- Block_Header  -->
+  <div class="schedule">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-5 col-lg-5 col-xl-4">
+            <div class="forms en">
+              <div class="forn_singUp">
+
+              
+              <form class="text-center border border-light p-3" action="#!">
+              
+              <p class="mb-3 sinlog" style="float: left;">Sign up</p>
+              
+              <!-- First name -->
+              <input type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Name">
+              <!-- E-mail -->
+              <input type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail address">
+              <!-- Password -->
+              <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+              <!--Confirm Password -->
+              <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Confirm password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+              <!-- Phone number -->
+              <input type="text" id="textInput" class="form-control mb-2" placeholder="Telegram / Skype">
+              
+              <!-- Sign up button -->
+              <button class="btn_m" type="submit"
+              style="
+                width: 179px;
+                height: 35px;
+                border: 0px;
+                background: #EC000E !important;
+                border-radius: 3px;
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+              "
+              >Sign up</button>
+              </form>
+              </div>
+              <div class="forn_LogIn">
+
+              
+                  <form class="text-center border border-light p-3" action="#!">
+                  
+                  <p class="mb-3 sinlog" style="float: left;">Log In</p>
+                  
+
+                  <!-- E-mail -->
+                  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail address">
+                  <!-- Password -->
+                  <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
+                  <!-- Sign up button -->
+                  <button class="btn_m" type="submit"
+                  style="
+                    width: 179px;
+                    height: 35px;
+                    border: 0px;
+                    background: #EC000E !important;
+                    border-radius: 3px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                  "
+                  >Sign up</button>
+                  <div style="margin-top: 3px;">
+                      <!-- Forgot password -->
+                      <a href="" style="color: red; text-decoration: underline;">Forgot password?</a>
+                  </div>
+                  </form>
+              </div>
+            </div>
+            <div class="forms ru">
+                  <div class="forn_singUp_ru">
+    
+                  
+                  <form class="text-center border border-light p-3" action="#!">
+                  
+                  <p class="mb-3 sinlog" style="float: left;">Регестрация</p>
+                  
+                  <!-- First name -->
+                  <input type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Имя">
+                  <!-- E-mail -->
+                  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail адрес">
+                  <!-- Password -->
+                  <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Пароль" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                  <!--Confirm Password -->
+                  <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Подтвердите пароль" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                  <!-- Phone number -->
+                  <input type="text" id="textInput" class="form-control mb-2" placeholder="Telegram / Skype">
+                  
+                  <!-- Sign up button -->
+                  <button class="btn_m" type="submit"
+                  style="
+                    width: 250px;
+                    height: 35px;
+                    border: 0px;
+                    background: #EC000E !important;
+                    border-radius: 3px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                  "
+                  >Зарегистрироваться</button>
+                  </form>
+                  </div>
+                  <div class="forn_LogIn_ru">
+    
+                  
+                      <form class="text-center border border-light p-3" action="#!">
+                      
+                      <p class="mb-3 sinlog" style="float: left;">Авторизация</p>
+                      
+    
+                      <!-- E-mail -->
+                      <input type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail адрес">
+                      <!-- Password -->
+                      <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Пароль" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    
+                      <!-- Sign up button -->
+                      <button class="btn_m" type="submit"
+                      style="
+                        width: 179px;
+                        height: 35px;
+                        border: 0px;
+                        background: #EC000E !important;
+                        border-radius: 3px;
+                        font-family: Rubik;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #FFFFFF;
+                      "
+                      >Войти</button>
+                      </form>
+                  </div>
+            </div>
+          
+          </div>
+      </div>
+      <div class="row">
+            <div class=" col-xl-12 main_text" >
+                <h1>Best CPA network</h1>
+                <h2>for nutra and gambling offers</h2>
+            </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- ////////////////// -->
+  <!-- Block (ADVANTAGES) -->
+  <h3 class="en">Why with us?</h3>
+  <h3 class="ru">Почему мы?</h3>
+  <div class="container en">
+      <div class="row">
+        <div class="col-12 d-block d-sm-block d-lg-none d-xl-none">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                 
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_1</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_1</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_2</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_2</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_3</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_3</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_4</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_4</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_5</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_4</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_6</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_6</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="margin-left: -10px; z-index: 1;">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="margin-right: -10px; z-index: 1;">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+              <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                <div class="container_pr">
+                  <div class="front" style="background: #000000; background-size: 100% 100%;">
+                    <div class="inner">
+                        <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                            info
+                           </div>
+                           <div class="for_mob" style="
+                           width: 0;
+                           height: 0;
+                           border-bottom: 100px solid red; 
+                           border-left: 100px solid transparent;
+                           position: absolute;
+                           right: 0;
+                           bottom: 20px;">
+                           </div>
+                      <img src="img/cityscape.png" alt="" width="200px;">
+                      <p>advantage_1</p>
+                      
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>text_1</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+          <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+            <div class="container_pr">
+              <div class="front" style="background: #000000; background-size: 100% 100%;">
+                <div class="inner">
+                    <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                        info
+                       </div>
+                       <div class="for_mob" style="
+                       width: 0;
+                       height: 0;
+                       border-bottom: 100px solid red; 
+                       border-left: 100px solid transparent;
+                       position: absolute;
+                       right: 0;
+                       bottom: 20px;">
+                       </div>
+                  <img src="img/cityscape.png" alt="" width="200px;">
+                  <p>advantage_2</p>
+                  
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>text_2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+            <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+              <div class="container_pr">
+                <div class="front" style="background: #000000; background-size: 100% 100%;">
+                  <div class="inner">
+                      <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                          info
+                         </div>
+                         <div class="for_mob" style="
+                         width: 0;
+                         height: 0;
+                         border-bottom: 100px solid red; 
+                         border-left: 100px solid transparent;
+                         position: absolute;
+                         right: 0;
+                         bottom: 20px;">
+                         </div>
+                    <img src="img/cityscape.png" alt="" width="200px;">
+                    <p>advantage_3</p>
+                    
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p>text_3</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+              <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                <div class="container_pr">
+                  <div class="front" style="background: #000000; background-size: 100% 100%;">
+                    <div class="inner">
+                        <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                            info
+                           </div>
+                           <div class="for_mob" style="
+                           width: 0;
+                           height: 0;
+                           border-bottom: 100px solid red; 
+                           border-left: 100px solid transparent;
+                           position: absolute;
+                           right: 0;
+                           bottom: 20px;">
+                           </div>
+                      <img src="img/cityscape.png" alt="" width="200px;">
+                      <p>advantage_4</p>
+                      
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>text_4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+          <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+            <div class="container_pr">
+              <div class="front" style="background: #000000; background-size: 100% 100%;">
+                <div class="inner">
+                    <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                        info
+                       </div>
+                       <div class="for_mob" style="
+                       width: 0;
+                       height: 0;
+                       border-bottom: 100px solid red; 
+                       border-left: 100px solid transparent;
+                       position: absolute;
+                       right: 0;
+                       bottom: 20px;">
+                       </div>
+                  <img src="img/cityscape.png" alt="" width="200px;">
+                  <p>advantage_5</p>
+                  
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>text_5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+            <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+              <div class="container_pr">
+                <div class="front" style="background: #000000; background-size: 100% 100%;">
+                  <div class="inner">
+                      <div class="for_mob" style="position: absolute;right: 0;bottom: 20px; z-index: 2; color: white;padding: 10px;">
+                          info
+                         </div>
+                         <div class="for_mob" style="
+                         width: 0;
+                         height: 0;
+                         border-bottom: 100px solid red; 
+                         border-left: 100px solid transparent;
+                         position: absolute;
+                         right: 0;
+                         bottom: 20px;">
+                         </div>
+                    <img src="img/cityscape.png" alt="" width="200px;">
+                    <p>advantage_6</p>
+                    
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p>text_6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="container ru">
+      <div class="row">
+        <div class="col-12 d-block d-sm-block d-lg-none d-xl-none">
+            <div id="carouselExampleIndicatorsru" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicatorsru" data-slide-to="5"></li>
+                  
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_1ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_1ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_2ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_2ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_3ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_3ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_4ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_4ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_5ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_5ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                          <div class="container_pr">
+                            <div class="front" style="background: #000000; background-size: 100% 100%;">
+                              <div class="inner">
+                                  
+                                <img src="img/cityscape.png" alt="" width="200px;">
+                                <p>advantage_6ru</p>
+                                
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="inner">
+                                <p>text_6ru</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicatorsru" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicatorsru" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+              <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                <div class="container_pr">
+                  <div class="front" style="background: #000000; background-size: 100% 100%;">
+                    <div class="inner">
+                        
+                      <img src="img/cityscape.png" alt="" width="200px;">
+                      <p>advantage_1ru</p>
+                      
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>text_1ru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+          <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+            <div class="container_pr">
+              <div class="front" style="background: #000000; background-size: 100% 100%;">
+                <div class="inner">
+                    
+                  <img src="img/cityscape.png" alt="" width="200px;">
+                  <p>advantage_2ru</p>
+                  
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>text_2ru</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+            <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+              <div class="container_pr">
+                <div class="front" style="background: #000000; background-size: 100% 100%;">
+                  <div class="inner">
+                      
+                    <img src="img/cityscape.png" alt="" width="200px;">
+                    <p>advantage_3ru</p>
+                    
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p>text_3ru</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+              <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+                <div class="container_pr">
+                  <div class="front" style="background: #000000; background-size: 100% 100%;">
+                    <div class="inner">
+                       
+                      <img src="img/cityscape.png" alt="" width="200px;">
+                      <p>advantage_4ru</p>
+                      
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>text_4ru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+          <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+            <div class="container_pr">
+              <div class="front" style="background: #000000; background-size: 100% 100%;">
+                <div class="inner">
+                    
+                  <img src="img/cityscape.png" alt="" width="200px;">
+                  <p>advantage_5ru</p>
+                  
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>text_5ru</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-sm-none col-lg-4 d-lg-block col-xl-4 d-xl-block">
+            <div class="col_pr" ontouchstart="this.classList.toggle('hover');">
+              <div class="container_pr">
+                <div class="front" style="background: #000000; background-size: 100% 100%;">
+                  <div class="inner">
+                      
+                    <img src="img/cityscape.png" alt="" width="200px;">
+                    <p>advantage_6ru</p>
+                    
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p>text_6ru</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!-- ////////////////// -->
+  <!-- Block offers -->
+  <h3 class="en">Offers</h3>
+  <h3 class="ru">Офферы</h3>
+  <div class="container en">
+    <div class="row">
+      <div class="col-xl-6 keto">
+        <h6>Keto</h6>
+        <p class="offe_p">Top GEOs Canada, Australia, New Zealand, France, Brazil and Latam. Ask your manager for fresh EPC top.
+          Popular brand of diet pills now on CPA, with best mids and top CR</p>
+      </div>
+      <div class="col-xl-6 cbd">
+        <h6>CBD</h6>
+        <p class="offe_p">Cannabis on fire. New offer that shows great results, top discussed articles on tier1 and Europe countries. High EPC, high CTR, all that we love</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 male">
+        <h6 style="line-height: 49px;">Male<br> Enhacement</h6>
+        <p class="offe_p">Old good penis offers. We selected for You stable and high converting offers for adult nutra.</p>
+      </div>
+      <div class="col-xl-6 tobe">
+        <h6>to be continued...</h6>
+
+      </div>
+    </div>
+  </div>
+  <div class="container ru">
+    <div class="row">
+      <div class="col-xl-6 keto">
+        <h6>Keto</h6>
+        <p class="offe_p">Похудайка с оплатой картой. Топовые ГЕО Австралия, Новая Зеландия, Франция, Латинская Америка, Испания.
+           Спросите у вашего персонального менеджера топ по EPC. Популярный бренд таблеток, свежие миды и топовый CR.</p>
+      </div>
+      <div class="col-xl-6 cbd">
+        <h6>CBD</h6>
+        <p class="offe_p">Каннабис который лечит все. Новый оффер, с хорошим конвертом, самые обсуждаемые статьи в Tier1 и Европе. Высокий EPC, высокий CTR, все что мы любим.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 male">
+        <h6 style="line-height: 49px;">Male<br> Enhacement</h6>
+        <p class="offe_p">Мужское здоровье - Старые добрые стоялки и увеличалки. Мы выбрали для вас самые конвертящие и стабильные офферы.</p>
+      </div>
+      <div class="col-xl-6 tobe">
+        <h6>to be continued...</h6>
+
+      </div>
+    </div>
+  </div>
+  <!-- ////////////////// -->
+  <!-- Block reviews-->
+  <h3 class="en">What speak about us</h3>
+  <h3 class="ru">Что говорят о нас</h3>
+  <div class="container en">
+    <div class="row">
+      <div class="col-12">
+          <div id="carouselExampleIndicators_wsas" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators" style="bottom: -50px;">
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="2" ></li>
+
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  
+                    <div class="photo_client" style="background: url(img/reviews_1.jpg) no-repeat;  background-size: cover;"></div>
+                    <h4>rewname_1</h4>
+                    <p class="p_rew">rewtext_1</p>
+                </div>
+                <div class="carousel-item">
+                  
+                    <div class="photo_client" style="background: url(img/reviews_2.jpg) no-repeat;  background-size: cover;"></div>
+                    <h4>rewname_2</h4>
+                    <p class="p_rew">rewtext_2</p>
+                </div>
+                <div class="carousel-item">
+                  
+                    <div class="photo_client" style="background: url(img/reviews_3.jpg) no-repeat;  background-size: cover;"></div>
+                    <h4>rewname_3</h4>
+                    <p class="p_rew">rewtext_3</p>
+                </div>
+    
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators_wsas" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators_wsas" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="container ru">
+      <div class="row">
+        <div class="col-12">
+            <div id="carouselExampleIndicators_wsasru" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" style="bottom: -50px;">
+                  <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="2" ></li>
+  
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                      <div class="photo_client" style="background: url(img/reviews_1.jpg) no-repeat;  background-size: cover;"></div>
+                      <h4>rewname_1ru</h4>
+                      <p class="p_rew">rewtext_1ru</p>
+                  </div>
+                  <div class="carousel-item">
+                    
+                      <div class="photo_client" style="background: url(img/reviews_2.jpg) no-repeat;  background-size: cover;"></div>
+                      <h4>rewname_2ru</h4>
+                      <p class="p_rew">rewtext_2ru</p>
+                  </div>
+                  <div class="carousel-item">
+                    
+                      <div class="photo_client" style="background: url(img/reviews_3.jpg) no-repeat;  background-size: cover;"></div>
+                      <h4>rewname_3ru</h4>
+                      <p class="p_rew">rewtext_3ru</p>
+                  </div>
+      
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators_wsasru" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators_wsasru" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+      </div>
+  </div>
+  <!-- ////////////////// -->
+    <!-- Block reviews-->
+    <h3 class="en">FAQ</h3>
+    <h3 class="ru">FAQ</h3>
+    <div class="container en">
+      <div class="row">
+        <div class="col-12">
+            <h5 class="show" style="color: white">What about payment terms with Offerleader?</h5>
+            <div class="sly">
+              <p class=".p_faq">7 days hold on your first payment, after we pay without hold,
+                                every day, upon request.<br>
+                                Usually it takes up to hour.<br>
+                                Capitalist - min. 250 - 0%<br>
+                                Epayments - min. 500- 3%<br>
+                                WMZ - min. 250 -  2%<br>
+                                Wire - min. 5000$ <br>
+                                If you have some different payment system, please contact your manager.</p>
+            </div>
+            <hr style="background: white; height: 0.5px;">
+            <h5 class="show" style="color: white">Where I can find LPs?</h5>
+              <div class="sly">
+            <p class=".p_faq">On button Creatives(offer) we add LPs with high CR, also your personal manager can give fresh ones. You should use your own domain and hosting for LP, as it’s more friendly with most of traffic sources(FB, AdWords, native)</p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+              <h5 class="show" style="color: white">What creatives will work on x offer?</h5>
+              <div class="sly">
+            <p class=".p_faq">We have examples of creatives on button creatives, also your manager will give You some fresh ones, that showed high CTR for us. P.S. If You work with Facebook ads, You should uniqueize our pics and videos, to not be punished by BANhammer. </p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+              <h5 class="show" style="color: white">How to make postback integration with my tracker?</h5>
+              <div class="sly">
+            <p class=".p_faq">*ссылка на гайд*<br>
+                              Ask your manager if you have any questions.</p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+              <h5 class="show" style="color: white">What cloack You use to drive traffic?</h5>
+              <div class="sly">
+            <p class=".p_faq">Its a question similiar with relision. On our opinion expensive cloaks is all about marketing, and dont worth it. We use Keitaro with fresh ipbot list.</p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+              <h5 class="show" style="color: white">Why I dont see my clicks on stream stats?
+              </h5>
+              <div class="sly">
+            <p class=".p_faq">Our system shows clicks only on streams that had at least one click. It made to clear your stats from tons of test streams, but still You can ask your manager for exact qty of clicks you generated.</p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+            </div>
+            
+        </div>
+    </div>
+    <div class="container ru">
+        <div class="row">
+          <div class="col-12">
+              <h5 class="show" style="color: white">Какие условия выплат?</h5>
+              <div class="sly">
+                <p class=".p_faq">Первый холд 7 дней после начала работы с нами, после работаем без золда. Выплаты производим в день закзаза.<br>
+                                  Capitalist - мин 250 - 0%<br>
+                                  Epayments - мин 500- 3%<br>
+                                  WMZ - мин 250 -  2%<br>
+                                  Wire - мин 5000$<br>
+                                  Если Вы используете другую платежные системы, сообщите вашему персональному менеджеру
+</p>
+              </div>
+              <hr style="background: white; height: 0.5px;">
+              <h5 class="show" style="color: white">Где мне взять проклы?</h5>
+                <div class="sly">
+              <p class=".p_faq">На кнопке Creatives можно найти проверенные проклы с хорошим пробивом, так же персональный менеджер может помочь со свежими проклами. Рекомендуем использовать собственные домены и свежий хостинг, это скажется позитивно на запусках практически на всех источниках траффика(Adwords, FB, нейтив)</p>
+                </div>
+                <hr style="background: white; height: 0.5px;">
+                <h5 class="show" style="color: white">Какие креативы сработают на оффере X?</h5>
+                <div class="sly">
+              <p class=".p_faq">На кнопке Creatives вы сможете найти рабочие подходы и креативы, персональный менеджер так же может предоставить свежие креативы, которые нам показивают хороший CTR. P.S.Если вы работаете с FB, советуем уникализировать креативы, которые мы вам предоставили. </p>
+                </div>
+                <hr style="background: white; height: 0.5px;">
+                <h5 class="show" style="color: white">Как настроить постбек с нашей системой?</h5>
+                <div class="sly">
+              <p class=".p_faq">*ссылка на гайд*<br>
+                    Если у вас возникли вопросы, обратитесь к персональному менеджеру</p>
+                </div>
+                <hr style="background: white; height: 0.5px;">
+                <h5 class="show" style="color: white">Почему я не вижу клики в статистике?</h5>
+                <div class="sly">
+              <p class=".p_faq">Наша система показивает клики по стримам по которому был хотя бы один лид. Это сделанно для оптимизации работы статистики, так же Вы можете сверить количество кликов с персональным менеджером .</p>
+                </div>
+                <hr style="background: white; height: 0.5px;">
+                <h5 class="show" style="color: white">Какую клоаку вы используете?</h5>
+                <div class="sly">
+                  <p class=".p_faq">По нашему мнению дорогие клоаки - чистый маркетинг. Мы клоачим Keitaro и часто обновляем IP bot list. </p>
+                </div>
+                <hr style="background: white; height: 0.5px;">
+              </div>
+              
+          </div>
+        </div>
+    </div>
+    <!-- ////////////////// -->
+ </main>
+ <footer>
+   <div class="container en">
+     <div class="row" style="padding-top: 50px;">
+       <div class="col-xl-4" style="text-align: center;">
+         <img src="img/logo.png" alt="" width="153px" height="67px;">
+       </div>
+       <div class="offset-xl-1 col-xl-2">
+          <ul>
+            <li>
+              <a href="">
+                  Advantages
+              </a>
+            </li>
+            <li>
+              <a href="">
+                  Reviews
+              </a>
+            </li>
+            <li>
+              <a href="">
+                  Offers
+              </a>
+            </li>
+            <li>
+              <a href="">
+                  FAQ
+              </a>
+            </li>
+          </ul>
+       </div>
+       <div class="offset-xl-1 col-xl-3">
+          <ul>
+            <li>
+              <a href="">
+                  Log In / Sing up
+              </a>
+            </li>
+          </ul>
+       </div>
+
+     </div>
+   </div>
+   <div class="container ru">
+    <div class="row" style="padding-top: 50px;">
+      <div class="col-xl-4" style="text-align: center;">
+        <img src="img/logo.png" alt="" width="153px" height="67px;">
+      </div>
+      <div class="offset-xl-1 col-xl-2">
+         <ul>
+           <li>
+             <a href="">
+                 Вебмастеру
+             </a>
+           </li>
+           <li>
+             <a href="">
+                 Офферы
+             </a>
+           </li>
+           <li>
+             <a href="">
+                 Отзывы
+             </a>
+           </li>
+           <li>
+             <a href="">
+                 FAQ
+             </a>
+           </li>
+         </ul>
+      </div>
+      <div class="offset-xl-1 col-xl-4">
+         <ul>
+           <li>
+             <a href="">
+                 Авторизация / Регистрация
+             </a>
+           </li>
+         </ul>
+      </div>
+
+    </div>
+  </div>
+ </footer>
+    <!-- SCRIPTS -->
+  
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Wow.js -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- Your scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
