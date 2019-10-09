@@ -580,3 +580,58 @@ footer a:hover{
     }
 
 }
+@media screen and (max-width: 480px) {
+    .keto{
+    
+        position: relative;
+        left: 0px;
+        height: 250px;
+        background:linear-gradient(90deg, #250D00 0%, rgba(122, 1, 141, 0.86) 0%, rgba(255,255,255,0) 100%),#000;
+        border-radius: 13px;
+    }
+    .cbd{
+        
+        height: 250px;
+        background: linear-gradient(90deg, #250D00 0%, rgba(1, 141, 32, 0.86) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+        border-radius: 13px;
+    }
+    .male{
+        top: 0px;
+        position: relative;
+        left: 0px;
+        height: 250px;
+        background: linear-gradient(90deg, #250000 0%, rgba(141,1,1,0.86) 0%, rgba(255,255,255,0) 100%),#000;
+        border-radius: 13px;
+    }
+    .tobe{
+        top: 0px;
+        height: 250px;
+        background: linear-gradient(90deg, #434343 0%, rgba(135, 135, 135, 0.86) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 13px;
+    }
+    .schedule {
+        background: url(../img/Block1_header.png) center no-repeat;
+        background-size: cover;
+    }
+    h2 {
+        text-align: center;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    h1 {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 57px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

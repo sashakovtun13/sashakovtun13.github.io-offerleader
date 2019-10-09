@@ -7,6 +7,8 @@
       e.preventDefault();
       $("#sing_up").removeClass('active_m');
       $("#log_in").addClass('active_m');
+
+
       $(".forn_singUp").css("display","none");
       $(".forn_LogIn").css("display","block");
     });
@@ -14,6 +16,7 @@
       e.preventDefault();
       $("#log_in").removeClass('active_m');
       $("#sing_up").addClass('active_m');
+
       $(".forn_singUp").css("display","block");
       $(".forn_LogIn").css("display","none");
     });
@@ -24,16 +27,18 @@
       e.preventDefault();
       $("#sing_up_ru").removeClass('active_m');
       $("#log_in_ru").addClass('active_m');
-      $(".forn_singUp_ru").css("display","none");
-      $(".forn_LogIn_ru").css("display","block");
+
+      $(".forn_singUp").css("display","none");
+      $(".forn_LogIn").css("display","block");
 
     });
     $("#sing_up_ru").click(function (e) { 
       e.preventDefault();
       $("#log_in_ru").removeClass('active_m');
       $("#sing_up_ru").addClass('active_m');
-      $(".forn_singUp_ru").css("display","block");
-      $(".forn_LogIn_ru").css("display","none");
+
+      $(".forn_singUp").css("display","block");
+      $(".forn_LogIn").css("display","none");
     });
 
 
@@ -46,12 +51,36 @@
         $("#lang_en").css("color","white");
         $(".ru").css("display","block");
         $(".en").css("display","none");
+
+        $("#head_form_sing").html("Регестрация");
+        $("#defaultRegisterFormFirstName").attr("placeholder","Имя");
+        $("#defaultRegisterFormEmail").attr("placeholder","E-mail адрес");
+        $("#defaultRegisterFormPassword").attr("placeholder","Пароль");
+        $("#defaultRegisterFormConfirmPassword").attr("placeholder","Подтвердите пароль");
+        $("#defaultRegisterFormSignUp").html("Зарегистрироваться");
+
+        $("#head_form_log").html("Авторизация");
+        $("#defaultLogFormEmail").attr("placeholder","E-mail адрес");
+        $("#defaultLogFormPassword").attr("placeholder","Пароль");
+        $("#defaultLogFormSignUp").html("Войти");
       }
       else{
         $("#lang_en").css("color","red");
         $("#lang_ru").css("color","white");
         $(".en").css("display","block");
         $(".ru").css("display","none");
+
+        $("#head_form_sing").html("Sign up");
+        $("#defaultRegisterFormFirstName").attr("placeholder","Name");
+        $("#defaultRegisterFormEmail").attr("placeholder","E-mail address");
+        $("#defaultRegisterFormPassword").attr("placeholder","Password");
+        $("#defaultRegisterFormConfirmPassword").attr("placeholder","ConfirmPassword");
+        $("#defaultRegisterFormSignUp").html("Sign up");
+
+        $("#head_form_log").html("Log In");
+        $("#defaultLogFormEmail").attr("placeholder","E-mail address");
+        $("#defaultLogFormPassword").attr("placeholder","Password");
+        $("#defaultLogFormSignUp").html("Sign in");
       }
       
     }
@@ -79,6 +108,18 @@
       $(".ru").css("display","none");
       localStorage.clear();
       localStorage.setItem("lan","en");
+
+      $("#head_form_sing").html("Sign up");
+      $("#defaultRegisterFormFirstName").attr("placeholder","Name");
+      $("#defaultRegisterFormEmail").attr("placeholder","E-mail address");
+      $("#defaultRegisterFormPassword").attr("placeholder","Password");
+      $("#defaultRegisterFormConfirmPassword").attr("placeholder","ConfirmPassword");
+      $("#defaultRegisterFormSignUp").html("Sign up");
+      //Log_EN
+      $("#head_form_log").html("Log In");
+      $("#defaultLogFormEmail").attr("placeholder","E-mail address");
+      $("#defaultLogFormPassword").attr("placeholder","Password");
+      $("#defaultLogFormSignUp").html("Sign in");
     });
     $("#lang_ru").click(function (e) { 
       e.preventDefault();
@@ -88,6 +129,18 @@
       $(".en").css("display","none");
       localStorage.clear();
       localStorage.setItem("lan","ru");
+      //Sing up_RU
+      $("#head_form_sing").html("Регестрация");
+      $("#defaultRegisterFormFirstName").attr("placeholder","Имя");
+      $("#defaultRegisterFormEmail").attr("placeholder","E-mail адрес");
+      $("#defaultRegisterFormPassword").attr("placeholder","Пароль");
+      $("#defaultRegisterFormConfirmPassword").attr("placeholder","Подтвердите пароль");
+      $("#defaultRegisterFormSignUp").html("Зарегистрироваться");
+      //Log_RU
+      $("#head_form_log").html("Авторизация");
+      $("#defaultLogFormEmail").attr("placeholder","E-mail адрес");
+      $("#defaultLogFormPassword").attr("placeholder","Пароль");
+      $("#defaultLogFormSignUp").html("Войти");
     });
 //FAQ
 $('.show').click(function() {
