@@ -52,17 +52,18 @@
         $(".ru").css("display","block");
         $(".en").css("display","none");
 
-        $("#head_form_sing").html("Регестрация");
-        $("#defaultRegisterFormFirstName").attr("placeholder","Имя");
-        $("#defaultRegisterFormEmail").attr("placeholder","E-mail адрес");
-        $("#defaultRegisterFormPassword").attr("placeholder","Пароль");
-        $("#defaultRegisterFormConfirmPassword").attr("placeholder","Подтвердите пароль");
-        $("#defaultRegisterFormSignUp").html("Зарегистрироваться");
-
-        $("#head_form_log").html("Авторизация");
-        $("#defaultLogFormEmail").attr("placeholder","E-mail адрес");
-        $("#defaultLogFormPassword").attr("placeholder","Пароль");
-        $("#defaultLogFormSignUp").html("Войти");
+      //Sing up_RU
+      $("#head_form_sing").html("Регестрация");
+      $("#defaultRegisterFormFirstName").attr("placeholder","Имя");
+      $("#defaultRegisterFormEmail").attr("placeholder","E-mail адрес");
+      $("#defaultRegisterFormPassword").attr("placeholder","Пароль");
+      $("#defaultRegisterFormConfirmPassword").attr("placeholder","Подтвердите пароль");
+      $("#defaultRegisterFormSignUp").html("Зарегистрироваться");
+      //Log_RU
+      $("#head_form_log").html("Авторизация");
+      $("#defaultLogFormEmail").attr("placeholder","E-mail адрес");
+      $("#defaultLogFormPassword").attr("placeholder","Пароль");
+      $("#defaultLogFormSignUp").html("Войти");
       }
       else{
         $("#lang_en").css("color","red");
@@ -76,7 +77,7 @@
         $("#defaultRegisterFormPassword").attr("placeholder","Password");
         $("#defaultRegisterFormConfirmPassword").attr("placeholder","ConfirmPassword");
         $("#defaultRegisterFormSignUp").html("Sign up");
-
+        //Log_EN
         $("#head_form_log").html("Log In");
         $("#defaultLogFormEmail").attr("placeholder","E-mail address");
         $("#defaultLogFormPassword").attr("placeholder","Password");
