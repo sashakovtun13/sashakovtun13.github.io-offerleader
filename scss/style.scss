@@ -6,11 +6,12 @@ body{
     background: #000000;
 }
 .carousel .carousel-control-next-icon {
+    opacity: 1 !important;
     background-image: url("../img/next.svg");
     
 }
 .carousel .carousel-control-prev-icon {
-    
+    opacity: 1 !important;
     background-image: url("../img/back.svg");
     
 }
@@ -147,6 +148,7 @@ border-radius: 12px;
     box-sizing: border-box;
     border-radius: 5px;
 .btn_m{
+
     width: 76px;
     height: 28px;
     background: #EC000E !important;
@@ -364,7 +366,7 @@ h4{
   .front .inner span{
     color: white;
     
-    font-family: 'Montserrat';
+    font-family: Rubik;
     font-weight: 300;
   }
 
@@ -381,7 +383,7 @@ h4{
 .cbd{
     
     height: 250px;
-    background: linear-gradient(90deg, #250D00 0%, rgba(1, 141, 32, 0.86) 0%, rgba(255, 255, 255, 0) 100%), url("../img/offer_2.png") right -50% bottom 53% no-repeat, #000000;
+    background: linear-gradient(90deg, #250D00 0%, rgba(1, 141, 32, 0.86) 0%, rgba(255, 255, 255, 0) 100%), url("../img/offer_2.png") right -60% bottom 53% no-repeat, #000000;
     border-radius: 13px;
 }
 .male{
@@ -490,6 +492,9 @@ li{
 footer a:hover{
     color: red;
 }
+footer .col-12{
+    text-align: left;
+}
 //--------------------------------------------------------------------------------
 
 @media screen and (max-width: 1920px) {
@@ -519,6 +524,39 @@ footer a:hover{
     }
 }
 @media screen and (max-width: 1025px) {
+    .tobe {
+        top: 20px;
+        height: 250px;
+        background: -webkit-gradient(linear, left top, right top, from(#434343), color-stop(0%, rgba(135,135,135,0.86)), to(rgba(255,255,255,0))),url(../img/offer_4.png) right -20% bottom 53% no-repeat,#000;
+        background: linear-gradient(90deg, #434343 0%, rgba(135,135,135,0.86) 0%, rgba(255,255,255,0) 100%),url(../img/offer_4.png) right -49% bottom -33% no-repeat,#000;
+        border: 1px solid #000000;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 13px;
+    }
+    .cbd {
+        height: 250px;
+        background: -webkit-gradient(linear, left top, right top, from(#250D00), color-stop(0%, rgba(1,141,32,0.86)), to(rgba(255,255,255,0))),url(../img/offer_2.png) right -50% bottom 53% no-repeat,#000;
+        background: linear-gradient(90deg, #250D00 0%, rgba(1,141,32,0.86) 0%, rgba(255,255,255,0) 100%),url(../img/offer_2.png) right -119% bottom 53% no-repeat,#000;
+        border-radius: 13px;
+    }
+    .keto {
+        position: relative;
+        left: -20px;
+        height: 250px;
+        background: -webkit-gradient(linear, left top, right top, from(#250D00), color-stop(0%, rgba(122,1,141,0.86)), to(rgba(255,255,255,0))),url(../img/offer_1.png) right 150% bottom 53% no-repeat,#000;
+        background: linear-gradient(90deg, #250D00 0%, rgba(122,1,141,0.86) 0%, rgba(255,255,255,0) 100%),url(../img/offer_1.png) right 135% bottom 53% no-repeat,#000;
+        border-radius: 13px;
+    }
+    .male {
+        top: 20px;
+        position: relative;
+        left: -20px;
+        height: 250px;
+        background: -webkit-gradient(linear, left top, right top, from(#250000), color-stop(0%, rgba(141,1,1,0.86)), to(rgba(255,255,255,0))),url(../img/offer_3.png) right -12% bottom 48% no-repeat,#000;
+        background: linear-gradient(90deg, #250000 0%, rgba(141,1,1,0.86) 0%, rgba(255,255,255,0) 100%),url(../img/offer_3.png) right -17% bottom 266% no-repeat,#000;
+        border-radius: 13px;
+    }
     .col_pr {
         width: 300px;
         margin: 1rem 0px 0 -7px !important;
@@ -571,6 +609,11 @@ footer a:hover{
     }
 }
 @media screen and (max-width: 800px) {
+
+    .first_nav {
+        margin-left: 0%;
+        display: flex;
+    }
     .col_pr {
         width: 300px;
         margin:auto !important;
@@ -578,9 +621,47 @@ footer a:hover{
     .carousel-indicators {
         bottom: -55px;
     }
-
+.keto{
+    
+        position: relative;
+        left: 0px;
+        height: 250px;
+        background:linear-gradient(90deg, #250D00 0%, rgba(122, 1, 141, 0.86) 0%, rgba(255,255,255,0) 100%),#000;
+        border-radius: 13px;
+    }
+    .cbd{
+        
+        height: 250px;
+        background: linear-gradient(90deg, #250D00 0%, rgba(1, 141, 32, 0.86) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+        border-radius: 13px;
+    }
+    .male{
+        top: 0px;
+        position: relative;
+        left: 0px;
+        height: 250px;
+        background: linear-gradient(90deg, #250000 0%, rgba(141,1,1,0.86) 0%, rgba(255,255,255,0) 100%),#000;
+        border-radius: 13px;
+    }
+    .tobe{
+        top: 0px;
+        height: 250px;
+        background: linear-gradient(90deg, #434343 0%, rgba(135, 135, 135, 0.86) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 13px;
+    }
 }
 @media screen and (max-width: 480px) {
+    .lan{
+        justify-content: space-evenly;
+    }
+    .reg{
+        justify-content: space-around;
+    }
+    .first_nav {
+        margin-left: 0%;
+    }
     .keto{
     
         position: relative;
