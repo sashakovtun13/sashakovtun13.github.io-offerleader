@@ -133,28 +133,41 @@
               <!-- SING UP -->
               <div class="forn_singUp">
 
+
+
+
+                              <!-- //////////////////////////////
+                              ///////////////////////////////////
+                              /////////////FORMS////////////////
+                              //////////////////////////////////
+                              ///////////////////////////////// -->
+
+
+
+           
+
               <form class="text-center border border-light p-3" action="#!">
-              
               <p class="mb-3 sinlog" style="float: left;" id="head_form_sing">Sign up</p>
-              
               <!-- First name -->
-              <input type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Name">
+              <input name="name" type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Name" maxlength="255" required title="Required">
               <!-- E-mail -->
-              <input type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail address">
+              <input name="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail address" required>
               <!-- Password -->
-              <input type="password" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+              <input name="password" type="text" id="defaultRegisterFormPassword" class="form-control mb-2" placeholder="Password" minlength="6" required>
               <!--Confirm Password -->
-              <input type="password" id="defaultRegisterFormConfirmPassword" class="form-control mb-2" placeholder="ConfirmPassword" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-              <!-- Phone number -->
-              <input type="text" id="textInput" class="form-control mb-2" placeholder="Telegram / Skype">
-              
+              <input name="" type="text" id="defaultRegisterFormConfirmPassword" class="form-control mb-2" placeholder="ConfirmPassword" required>
+              <div id='message' style="float: left;"></div>
+              <!-- Telegram -->
+              <input name="telegram_username" type="text" id="textInput" class="form-control mb-2" placeholder="Telegram" >
+              <!-- Skype -->
+              <input name="skype" type="text" id="textInput" class="form-control mb-2" placeholder="Skype" required>
               <!-- Sign up button -->
-              <button class="btn_m" id="defaultRegisterFormSignUp" type="submit"
+              <button class="btn_m" id="defaultRegisterFormSignUp" type="submit" disabled="disabled"
               style="
                 width: 239px;
                 height: 35px;
                 border: 0px;
-                background: #EC000E !important;
+                background: grey !important;
                 border-radius: 3px;
                 font-family: Rubik;
                 font-style: normal;
@@ -168,16 +181,22 @@
               </div>
               <div class="forn_LogIn">
 
-              <!-- LOG IN -->
-                  <form class="text-center border border-light p-3" action="#!">
-                  
-                  <p class="mb-3 sinlog" style="float: left;" id="head_form_log">Log In</p>
-                  
 
+
+
+
+              <!-- LOG IN -->
+
+
+
+
+
+                  <form class="text-center border border-light p-3" action="#!">
+                  <p class="mb-3 sinlog" style="float: left;" id="head_form_log">Log In</p>
                   <!-- E-mail -->
-                  <input type="email" id="defaultLogFormEmail" class="form-control mb-2" placeholder="E-mail address">
+                  <input type="email" id="defaultLogFormEmail" class="form-control mb-2" placeholder="E-mail address" required>
                   <!-- Password -->
-                  <input type="password" id="defaultLogFormPassword" class="form-control mb-2" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                  <input type="password" id="defaultLogFormPassword" class="form-control mb-2" placeholder="Password" required>
 
                   <!-- Sign up button -->
                   <button class="btn_m" type="submit" id="defaultLogFormSignUp"
@@ -204,6 +223,12 @@
             </div>
           </div>
       </div>
+
+
+      <!-- FORMS END -->
+
+
+
       <div class="row">
             <div class=" col-xl-12 main_text" >
                 <h1>Best CPA network</h1>
@@ -214,10 +239,17 @@
     </div>
   </div>
   <!-- ////////////////// -->
+
+
+
+
+
+
+
   <!-- Block (ADVANTAGES) -->
   <h3 class="en" id="s1">Why with us?</h3>
   <h3 class="ru" id="s5">Почему мы?</h3>
-  <div class="container en" >
+  <div class="wow fadeInUp container en" >
       <div class="row">
         <div class="col-12 d-block d-sm-block d-lg-none d-xl-none">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -371,7 +403,7 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>We have only tested and approved by mediabuyers offers, that shows good and stable results, makes high ROI, on all verticals we work.</p>
+                      <p style="font-size: 17px;">We have only tested and approved by mediabuyers offers, that shows good and stable results, makes high ROI, on all verticals we work.</p>
                     </div>
                   </div>
                 </div>
@@ -391,7 +423,7 @@
               </div>
               <div class="back">
                 <div class="inner">
-                  <p>We have huge mediabuying experience. Trivia that can optimize your campaigns, marketing funnels and many other.</p>
+                  <p style="font-size: 17px;">We have huge mediabuying experience. Trivia that can optimize your campaigns, marketing funnels and many other.</p>
                 </div>
               </div>
             </div>
@@ -410,7 +442,7 @@
                 </div>
                 <div class="back">
                   <div class="inner">
-                    <p style="font-size: 19px;">Our company is based on trust, and strong partnerships. Therefore, after the first hold for 7 days, we make payments every day upon request. This makes possible to run big revenue on shirt time</p>
+                    <p style="font-size: 17px;">Our company is based on trust, and strong partnerships. Therefore, after the first hold for 7 days, we make payments every day upon request. This makes possible to run big revenue on shirt time</p>
                   </div>
                 </div>
               </div>
@@ -431,7 +463,7 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>Your personal manager will give You the funnel, that shows high profit right now</p>
+                      <p style="font-size: 17px;">Your personal manager will give You the funnel, that shows high profit right now</p>
                     </div>
                   </div>
                 </div>
@@ -450,7 +482,7 @@
               </div>
               <div class="back">
                 <div class="inner">
-                  <p>All offers are optimized for FB traffic, and work with FB pixel.
+                  <p style="font-size: 17px;">All offers are optimized for FB traffic, and work with FB pixel.
                   </p>
                 </div>
               </div>
@@ -470,7 +502,7 @@
                 </div>
                 <div class="back">
                   <div class="inner">
-                    <p>Own apps, accounts and cloack on long-term partnership</p>
+                    <p style="font-size: 17px;">Own apps, accounts and cloack on long-term partnership</p>
                   </div>
                 </div>
               </div>
@@ -478,7 +510,7 @@
         </div>
       </div>
   </div>
-  <div class="container ru">
+  <div class="wow fadeInUp container ru">
       <div class="row">
         <div class="col-12 d-block d-sm-block d-lg-none d-xl-none">
             <div id="carouselExampleIndicatorsru" class="carousel slide" data-ride="carousel">
@@ -632,7 +664,7 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p style="font-size: 18px;">Мы предлагаем вам только проверенные офферы, которые показывают хороший результат и стабильно приносят прибыль, вне зависимости от вертикали.</p>
+                      <p style="font-size: 17px;">Мы предлагаем вам только проверенные офферы, которые показывают хороший результат и стабильно приносят прибыль, вне зависимости от вертикали.</p>
                     </div>
                   </div>
                 </div>
@@ -652,7 +684,7 @@
               </div>
               <div class="back">
                 <div class="inner">
-                  <p style="font-size: 18px;">О закупке траффика мы знаем не понаслышке. Мелочи которые могут оптимизировать ваши РК, советы по подходам, запускам и многое другое</p>
+                  <p style="font-size: 17px;">О закупке траффика мы знаем не понаслышке. Мелочи которые могут оптимизировать ваши РК, советы по подходам, запускам и многое другое</p>
                 </div>
               </div>
             </div>
@@ -692,7 +724,7 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p style="font-size: 18px;">Ваш персональный менеджер даст подход по которому прямо сейчас льется траффик и плюсит.</p>
+                      <p style="font-size: 17px;">Ваш персональный менеджер даст подход по которому прямо сейчас льется траффик и плюсит.</p>
                     </div>
                   </div>
                 </div>
@@ -711,7 +743,7 @@
               </div>
               <div class="back">
                 <div class="inner">
-                  <p style="font-size: 18px;">Все офферы оптимизированы под ФБ траффик, и работают с FB pixel</p>
+                  <p style="font-size: 17px;">Все офферы оптимизированы под ФБ траффик, и работают с FB pixel</p>
                 </div>
               </div>
             </div>
@@ -730,7 +762,7 @@
                 </div>
                 <div class="back">
                   <div class="inner">
-                    <p style="font-size: 18px;">Собственные приложения, аккаунты и клоака при построении долгосрочных отношений с партнерами.  </p>
+                    <p style="font-size: 17px;">Собственные приложения, аккаунты и клоака при построении долгосрочных отношений с партнерами.  </p>
                   </div>
                 </div>
               </div>
@@ -744,22 +776,22 @@
   <h3 class="ru"id="s6">Офферы</h3>
   <div class="container en">
     <div class="row">
-      <div class="col-lg-6 col-sm-6 col-xl-6 keto">
+      <div class="wow fadeInLeft col-lg-6 col-sm-6 col-xl-6 keto">
         <h6>Keto</h6>
         <p class="offe_p">Top GEOs Canada, Australia, New Zealand, France, Brazil and Latam. Ask your manager for fresh EPC top.
           Popular brand of diet pills now on CPA, with best mids and top CR</p>
       </div>
-      <div class="col-lg-6 col-sm-6 col-xl-6 cbd">
+      <div class="wow fadeInRight col-lg-6 col-sm-6 col-xl-6 cbd">
         <h6>CBD</h6>
         <p class="offe_p">Cannabis on fire. New offer that shows great results, top discussed articles on tier1 and Europe countries. High EPC, high CTR, all that we love</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-sm-6 col-xl-6 male">
+      <div class="wow fadeInLeft col-lg-6 col-sm-6 col-xl-6 male">
         <h6 style="line-height: 49px;">Male<br> Enhacement</h6>
         <p class="offe_p">Old good penis offers. We selected for You stable and high converting offers for adult nutra.</p>
       </div>
-      <div class="col-lg-6 col-sm-6 col-xl-6 tobe">
+      <div class="wow fadeInRight col-lg-6 col-sm-6 col-xl-6 tobe">
         <h6>to be continued...</h6>
 
       </div>
@@ -767,22 +799,22 @@
   </div>
   <div class="container ru">
     <div class="row">
-      <div class="col-lg-6 col-sm-6 col-xl-6 keto">
+      <div class="wow fadeInLeft col-lg-6 col-sm-6 col-xl-6 keto">
         <h6>Keto</h6>
         <p class="offe_p">Похудайка с оплатой картой. Топовые ГЕО Австралия, Новая Зеландия, Франция, Латинская Америка, Испания.
            Спросите у вашего персонального менеджера топ по EPC. Популярный бренд таблеток, свежие миды и топовый CR.</p>
       </div>
-      <div class="col-lg-6 col-sm-6 col-xl-6 cbd">
+      <div class="wow fadeInRight col-lg-6 col-sm-6 col-xl-6 cbd">
         <h6>CBD</h6>
         <p class="offe_p">Каннабис который лечит все. Новый оффер, с хорошим конвертом, самые обсуждаемые статьи в Tier1 и Европе. Высокий EPC, высокий CTR, все что мы любим.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-sm-6 col-xl-6 male">
+      <div class="wow fadeInLeft col-lg-6 col-sm-6 col-xl-6 male">
         <h6 style="line-height: 49px;">Male<br> Enhacement</h6>
         <p class="offe_p">Мужское здоровье - Старые добрые стоялки и увеличалки. Мы выбрали для вас самые конвертящие и стабильные офферы.</p>
       </div>
-      <div class="col-lg-6 col-sm-6 col-xl-6 tobe">
+      <div class="wow fadeInRight col-lg-6 col-sm-6 col-xl-6 tobe">
         <h6>to be continued...</h6>
 
       </div>
@@ -800,27 +832,57 @@
                 <li data-target="#carouselExampleIndicators_wsas" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators_wsas" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators_wsas" data-slide-to="2" ></li>
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="4" ></li>
+                <li data-target="#carouselExampleIndicators_wsas" data-slide-to="5"></li>
+                
 
               </ol>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item rew_it active" >
                   
-                    <div class="photo_client" style="background: url(img/reviews_1.jpg) no-repeat;  background-size: cover;"></div>
-                    <h4>rewname_1</h4>
-                    <p class="p_rew">rewtext_1</p>
+                    <div class="photo_client" style="background: url(img/men1.svg) no-repeat;  background-size: cover;"></div>
+                    <h4>Lionel Daniels</h4>
+                    <p class="p_rew">I'm having a great experience working with these guys!
+                       Nutra offers are the best for me and working with them in OfferLeader
+                        gives really high results.</p>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item rew_it" >
                   
-                    <div class="photo_client" style="background: url(img/reviews_2.jpg) no-repeat;  background-size: cover;"></div>
-                    <h4>rewname_2</h4>
-                    <p class="p_rew">rewtext_2</p>
+                    <div class="photo_client" style="background: url(img/woen1.svg) no-repeat;  background-size: cover;"></div>
+                    <h4>Theresa Maxwell</h4>
+                    <p class="p_rew">Their offers variety is huge, good conversion rate and, more important, stable.</p>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item rew_it" >
                   
-                    <div class="photo_client" style="background: url(img/reviews_3.jpg) no-repeat;  background-size: cover;"></div>
-                    <h4>rewname_3</h4>
-                    <p class="p_rew">rewtext_3</p>
+                    <div class="photo_client" style="background: url(img/men2.svg) no-repeat;  background-size: cover;"></div>
+                    <h4>Noel Boyd</h4>
+                    <p class="p_rew">I have been working with offerleader for several months now, and I can honestly
+                       say than I’m very satisfied so far. And I keep making more money each month.</p>
                 </div>
+                <div class="carousel-item rew_it" >
+                  
+                  <div class="photo_client" style="background: url(img/men5.svg) no-repeat;  background-size: cover;"></div>
+                  <h4>Brett Merritt</h4>
+                  <p class="p_rew">This is one of the best
+                     affiliate networks that I have come across.
+                      Their support is superb. Highly recommend
+                       them to anyone who wants to make money online.</p>
+              </div>
+              <div class="carousel-item rew_it" >
+                  
+                <div class="photo_client" style="background: url(img/woen2.svg) no-repeat;  background-size: cover;"></div>
+                <h4>Erika Walker</h4>
+                <p class="p_rew">Offerleader support are quite good experts on FB source,
+                   can help with advices and insights for my campaigns. Fast payouts without hold, high rates.
+                  </p>
+            </div>
+            <div class="carousel-item rew_it" >
+                  
+              <div class="photo_client" style="background: url(img/men4.svg) no-repeat;  background-size: cover;"></div>
+              <h4>Chris McDaniel</h4>
+              <p class="p_rew">OfferLeader is simply awesome, high offers rates, high converting rates and on time payments. If you want an payout just request it and there you go. Recommended for everyone!</p>
+          </div>
     
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators_wsas" role="button" data-slide="prev">
@@ -843,26 +905,42 @@
                   <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="2" ></li>
+                  <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators_wsasru" data-slide-to="4" ></li>
   
                 </ol>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item rew_it active">
                     
-                      <div class="photo_client" style="background: url(img/reviews_1.jpg) no-repeat;  background-size: cover;"></div>
-                      <h4>rewname_1ru</h4>
-                      <p class="p_rew">rewtext_1ru</p>
+                      <div class="photo_client" style="background: url(img/men1.svg) no-repeat;  background-size: cover;"></div>
+                      <h4>Молчан Владимир </h4>
+                      <p class="p_rew">Команде офферлидер моя благодарность.
+                        ПП работает без холд,. за счет быстрого вывода смог
+                         быстро маштабироваться.</p>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item rew_it">
                     
-                      <div class="photo_client" style="background: url(img/reviews_2.jpg) no-repeat;  background-size: cover;"></div>
-                      <h4>rewname_2ru</h4>
-                      <p class="p_rew">rewtext_2ru</p>
+                      <div class="photo_client" style="background: url(img/woen1.svg) no-repeat;  background-size: cover;"></div>
+                      <h4>Несвитайло Марта </h4>
+                      <p class="p_rew">Саппорт разбирается в ФБ, помогли с запуском, когда не аппрувило кампании. Выводят день в день </p>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item rew_it">
                     
-                      <div class="photo_client" style="background: url(img/reviews_3.jpg) no-repeat;  background-size: cover;"></div>
-                      <h4>rewname_3ru</h4>
-                      <p class="p_rew">rewtext_3ru</p>
+                      <div class="photo_client" style="background: url(img/men2.svg) no-repeat;  background-size: cover;"></div>
+                      <h4>Алексеев Николай </h4>
+                      <p class="p_rew">Не думал что возможна поддержка на таком высоком уровне! Спасибо менеджеру Насте, которая помогала мне во всем, от настройки клоаки, до креативов) </p>
+                  </div>
+                  <div class="carousel-item rew_it">
+                    
+                      <div class="photo_client" style="background: url(img/woen2.svg) no-repeat;  background-size: cover;"></div>
+                      <h4>Калинина София </h4>
+                      <p class="p_rew">Хоршие ребята дали нам Эксклюзивные условия по Азии рои вырос примерно на 20%.Чисто видимся и гуляем с ними на конференциях</p>
+                  </div>
+                  <div class="carousel-item rew_it">
+                    
+                      <div class="photo_client" style="background: url(img/men3.svg) no-repeat;  background-size: cover;"></div>
+                      <h4>Рогов Тарас </h4>
+                      <p class="p_rew">Честные ребята, достойно реагируют на форс - мажорные обстоятельства, всегда шли мне на встречу. Помогали во всем, даже в организационных вопросах с моей командой. Делятся опытом и не боятся рассказывать свои подходы и инсайды)</p>
                   </div>
       
                 </div>

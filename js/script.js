@@ -2,6 +2,24 @@
   $(function(){
 //SING_IN 
 
+$('#defaultRegisterFormPassword, #defaultRegisterFormConfirmPassword').on('keyup', function () {
+  var chek=0;
+  if ($('#defaultRegisterFormPassword').val() == $('#defaultRegisterFormConfirmPassword').val()&& $('#defaultRegisterFormPassword').val()!="") {
+    $('#message').html('Matching').css('color', 'rgb(0, 255, 110)');
+    $('#defaultRegisterFormSignUp').css("background", "red");
+    $('#defaultRegisterFormSignUp').removeAttr('disabled');
+  }
+  else if($('#defaultRegisterFormPassword').val() != $('#defaultRegisterFormConfirmPassword').val()){
+    $('#message').html('Not Matching').css('color', 'red');
+    $('#defaultRegisterFormSignUp').css("background", "grey");
+    $('#defaultRegisterFormSignUp').attr('disabled', 'disabled');
+  }
+    
+
+});
+
+
+
 //EN
     $("#log_in").click(function (e) { 
       e.preventDefault();
