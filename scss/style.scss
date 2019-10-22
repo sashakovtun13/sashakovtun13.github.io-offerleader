@@ -3,6 +3,7 @@
     display: none;
 }
 body{
+    letter-spacing: 1px;
     background: #000000;
 }
 .carousel .carousel-control-next-icon {
@@ -35,6 +36,7 @@ body{
 
 //HEADER----------------------------------------------------------------------------
 .navbar{
+    letter-spacing: 1px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -95,7 +97,7 @@ main{
     background: #000000;
 }
 .schedule{
-    
+    height: 100vh;
     background: url("../img/Block1_header.png") center no-repeat;
     background-size: 100% 100%;
 }
@@ -147,22 +149,13 @@ border-radius: 12px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 5px;
-.btn_m{
 
-    width: 76px;
-    height: 28px;
-    background: #EC000E !important;
-    border-radius: 3px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
 }
 .main_text{
-    margin-top: 5vh;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    
     margin-bottom: 10vh;
     text-align: right;
 }
@@ -481,6 +474,7 @@ h6{
 //--------------------------------------------------------------------------------
 //FOOTER--------------------------------------------------------------------------
 footer{
+    background:  rgb(41, 41, 41) ;
     margin-top: 100px;
     
 }
@@ -506,32 +500,25 @@ footer .col-12{
 //--------------------------------------------------------------------------------
 
 @media screen and (max-width: 1920px) {
-    .main_text{
-        margin-top: 5vh;
-        margin-bottom: 10vh;
-    }
+
 }
 @media screen and (max-width: 1680px) {
-    .main_text{
-        margin-top: 5vh;
-    }
+
 }
 @media screen and (max-width: 1440px) {
-    .main_text{
-        margin-top: 5vh;
-    }
+
 }
 @media screen and (max-width: 1366px) {
-    .main_text{
-        margin-top: 5vh;
-    }
+
 }
 @media screen and (max-width: 1280px) {
-    .main_text{
-        margin-top: 5vh;
-    }
+
 }
 @media screen and (max-width: 1025px) {
+    .schedule{
+  
+        background-size: cover;
+    }
     .tobe {
         top: 20px;
         height: 250px;
@@ -594,8 +581,17 @@ footer .col-12{
         /* identical to box height */
         color: #FFFFFF;
     }
+    .main_text{
+        margin-top: 30vh;
+    }
 }
 @media screen and (max-width: 800px) {
+    .schedule{
+        background-size: cover;
+    }
+    .main_text{
+        margin-top: 20vh;
+    }
     h1{
         font-family: Rubik;
         font-style: normal;
@@ -617,6 +613,7 @@ footer .col-12{
     }
 }
 @media screen and (max-width: 800px) {
+
 
     .first_nav {
         margin-left: 0%;
@@ -661,6 +658,16 @@ footer .col-12{
     }
 }
 @media screen and (max-width: 480px) {
+    .forms{
+    
+        margin-top: 12vh;
+        height: 80vh;
+    }
+    .main_text {
+        right: 0;
+        margin-top: 100px;
+        margin-bottom: 5px;
+    }
     .rew_it{
         height: 450px;
     }
@@ -704,6 +711,7 @@ footer .col-12{
         border-radius: 13px;
     }
     .schedule {
+        
         background: url(../img/Block1_header.png) center no-repeat;
         background-size: cover;
     }
@@ -725,5 +733,12 @@ footer .col-12{
         text-transform: uppercase;
         color: #FFFFFF;
         text-align: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .main_text {
+        right: 0;
+        margin-top: 100px;
+        display: none;
     }
 }

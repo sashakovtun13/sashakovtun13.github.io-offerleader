@@ -64,36 +64,7 @@
         </li>
         <!-- // -->
     </ul>
-    <ul class="navbar-nav ml-auto nav-flex-icons reg">
 
-      <li class="nav-item en" id="log_in">
-        <a class="nav-link waves-effect waves-light">
-          Log in
-        </a>
-      </li>
-      <li class="nav-item en active_m" id="sing_up">
-        <a class="nav-link waves-effect waves-light">
-          Sing up
-        </a>
-
-      </li>
-      <!-- Ru -->
-      <li class="nav-item ru" id="log_in_ru">
-          <a class="nav-link waves-effect waves-light">
-            Авторизация
-          </a>
-        </li>
-        <li class="nav-item ru active_m" id="sing_up_ru">
-          <a class="nav-link waves-effect waves-light">
-              Регистрация
-
-          </a>
-        </li>
-<!-- RU -->
-
-
-  
-      </ul>
       <ul class="navbar-nav ml-auto nav-flex-icons lan">
   
 
@@ -146,10 +117,10 @@
 
            
 
-              <form class="text-center border border-light p-3" action="#!">
+              <form class="text-center border border-light p-3" action="" method="POST" >
               <p class="mb-3 sinlog" style="float: left;" id="head_form_sing">Sign up</p>
               <!-- First name -->
-              <input name="name" type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Name" maxlength="255" required title="Required">
+              <input name="name" type="text" id="defaultRegisterFormFirstName" class="form-control mb-2" placeholder="Name" maxlength="255" required>
               <!-- E-mail -->
               <input name="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-2" placeholder="E-mail address" required>
               <!-- Password -->
@@ -158,9 +129,9 @@
               <input name="" type="text" id="defaultRegisterFormConfirmPassword" class="form-control mb-2" placeholder="ConfirmPassword" required>
               <div id='message' style="float: left;"></div>
               <!-- Telegram -->
-              <input name="telegram_username" type="text" id="textInput" class="form-control mb-2" placeholder="Telegram" >
+              <input name="telegram_username" type="text" id="textInputTelegram" class="form-control mb-2" placeholder="Telegram" >
               <!-- Skype -->
-              <input name="skype" type="text" id="textInput" class="form-control mb-2" placeholder="Skype" required>
+              <input name="skype" type="text" id="textInputSkype" class="form-control mb-2" placeholder="Skype" required>
               <!-- Sign up button -->
               <button class="btn_m" id="defaultRegisterFormSignUp" type="submit" disabled="disabled"
               style="
@@ -179,47 +150,7 @@
               >Sign up</button>
               </form>
               </div>
-              <div class="forn_LogIn">
 
-
-
-
-
-              <!-- LOG IN -->
-
-
-
-
-
-                  <form class="text-center border border-light p-3" action="#!">
-                  <p class="mb-3 sinlog" style="float: left;" id="head_form_log">Log In</p>
-                  <!-- E-mail -->
-                  <input type="email" id="defaultLogFormEmail" class="form-control mb-2" placeholder="E-mail address" required>
-                  <!-- Password -->
-                  <input type="password" id="defaultLogFormPassword" class="form-control mb-2" placeholder="Password" required>
-
-                  <!-- Sign up button -->
-                  <button class="btn_m" type="submit" id="defaultLogFormSignUp"
-                  style="
-                    width: 179px;
-                    height: 35px;
-                    border: 0px;
-                    background: #EC000E !important;
-                    border-radius: 3px;
-                    font-family: Rubik;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 20px;
-                    line-height: 24px;
-                    color: #FFFFFF;
-                  "
-                  >Sign up</button>
-                  <div style="margin-top: 3px;">
-                      <!-- Forgot password -->
-                      <a href="" id="fog_pas" style="color: red; text-decoration: underline;">Forgot password?</a>
-                  </div>
-                  </form>
-              </div>
             </div>
           </div>
       </div>
@@ -1016,8 +947,7 @@
                                   Epayments - мин 500- 3%<br>
                                   WMZ - мин 250 -  2%<br>
                                   Wire - мин 5000$<br>
-                                  Если Вы используете другую платежные системы, сообщите вашему персональному менеджеру
-</p>
+                                  Если Вы используете другую платежные системы, сообщите вашему персональному менеджеру</p>
               </div>
               <hr style="background: white; height: 0.5px;">
               <h5 class="show" style="color: white">Где мне взять проклы?</h5>
@@ -1054,25 +984,38 @@
     <!-- ////////////////// -->
  </main>
  <footer>
+   
    <div class="container en">
-     <div class="row" style="padding-top: 50px;">
-       <div class="col-xl-4" style="text-align: center;">
-         <img src="img/logo.png" alt="" width="153px" height="67px;">
+     <div class="row" style="padding-top: 50px; padding-bottom: 25px;">
+       <div class="col-12 col-md-4 col-lg-4 col-xl-4" style="text-align: left;">
+          <ul>
+              <li>
+                <a style="color: white; cursor: auto;">Manager contacts:</a>
+                
+              </li>
+              <li>
+                  <a title="Telegram"  style="font-size: 15px;;" target="_blank" href="https://t.me/nastya_offerleader">-@nastya_offerleader</a>
+              </li>
+              <li>
+                  <a title="Telegram" style="font-size: 15px;;" target="_blank" href="https://t.me/katyakurasova">-@katyakurasova</a>
+              </li>
+
+          </ul>
        </div>
-       <div class="col-12 offset-xl-1 col-xl-2">
+       <div class="col-4 col-md-4 col-lg-4  col-xl-2">
           <ul>
             <li>
               <a href="#s1">
-                  Advantages
-              </a>
-            </li>
-            <li>
-              <a href="#s2">
-                  Reviews
+                  Affiliates
               </a>
             </li>
             <li>
               <a href="#s3">
+                  Reviews
+              </a>
+            </li>
+            <li>
+              <a href="#s2">
                   Offers
               </a>
             </li>
@@ -1081,15 +1024,28 @@
                   FAQ
               </a>
             </li>
+            <li>
+                <a href="#s0">
+                    Sing up
+                </a>
+              </li>
           </ul>
        </div>
-       <div class="offset-xl-1 col-xl-3">
+       <div class="col-8 col-md-4 col-lg-4 offset-xl-1 col-xl-5">
           <ul>
-            <li>
-              <a href="">
-                  Log In / Sing up
-              </a>
-            </li>
+              <li>
+                  <a style="color: white; cursor: auto;text-transform: none;">
+                      Next conference You will meet us
+                  </a>
+                  
+                </li>
+                <li>
+                  <a style="color: white; cursor: auto; text-transform: none;">
+                          <img src="img/m.svg" alt="" width="30px;">
+                          <span style="color: white; font-size: 15px;;">Bangkok, Thailand • 4-5 December 2019</span> 
+                 
+                  </a>
+                </li>
           </ul>
        </div>
 
@@ -1097,10 +1053,22 @@
    </div>
    <div class="container ru">
     <div class="row" style="padding-top: 50px;">
-      <div class="col-xl-4" style="text-align: center;">
-        <img src="img/logo.png" alt="" width="153px" height="67px;">
+      <div class="col-12 col-md-4 col-lg-4 col-xl-4" style="text-align: left;">
+          <ul>
+              <li>
+                <a style="color: white; cursor: auto;">Контакты менеджеров:</a>
+                
+              </li>
+              <li>
+                  <a title="Telegram"  style="font-size: 15px;;" target="_blank" href="https://t.me/nastya_offerleader">-@nastya_offerleader</a>
+              </li>
+              <li>
+                  <a title="Telegram" style="font-size: 15px;;" target="_blank" href="https://t.me/katyakurasova">-@katyakurasova</a>
+              </li>
+
+          </ul>
       </div>
-      <div class="col-12 offset-xl-1 col-xl-2">
+      <div class="col-5 col-md-4 col-lg-4  col-xl-2">
          <ul>
            <li>
              <a href="#s5">
@@ -1122,17 +1090,29 @@
                  FAQ
              </a>
            </li>
-         </ul>
-      </div>
-      <div class="offset-xl-1 col-xl-4">
-         <ul>
            <li>
-             <a href="#s0">
-                 Авторизация / Регистрация
-             </a>
-           </li>
+              <a href="#s0">
+                  Регистрация
+              </a>
+            </li>
          </ul>
       </div>
+      <div class="col-7 col-md-4 col-lg-4 offset-xl-1 col-xl-5">
+          <ul>
+              <li>
+                  <a style="color: white; cursor: auto; text-transform: none;">
+                      Увидимся на следующей конференции
+                  </a>
+                  
+                </li>
+                <li>
+                  <a style="color: white; cursor: auto; text-transform: none;">
+                          <img src="img/m.svg" alt="" width="30px;">
+                          <span style="color: white; font-size: 15px;;">Бангкок, Таиланд • 4-5 декабря</span> 
+                  </a>
+                </li>
+          </ul>
+       </div>
 
     </div>
   </div>

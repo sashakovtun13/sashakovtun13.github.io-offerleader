@@ -4,7 +4,12 @@
 
 $('#defaultRegisterFormPassword, #defaultRegisterFormConfirmPassword').on('keyup', function () {
   var chek=0;
-  if ($('#defaultRegisterFormPassword').val() == $('#defaultRegisterFormConfirmPassword').val()&& $('#defaultRegisterFormPassword').val()!="") {
+  if ($('#defaultRegisterFormPassword').val() == $('#defaultRegisterFormConfirmPassword').val()&&
+       $('#defaultRegisterFormPassword').val()!=""
+
+
+       
+       ) {
     $('#message').html('Matching').css('color', 'rgb(0, 255, 110)');
     $('#defaultRegisterFormSignUp').css("background", "red");
     $('#defaultRegisterFormSignUp').removeAttr('disabled');
@@ -71,7 +76,7 @@ $('#defaultRegisterFormPassword, #defaultRegisterFormConfirmPassword').on('keyup
         $(".en").css("display","none");
 
       //Sing up_RU
-      $("#head_form_sing").html("Регестрация");
+      $("#head_form_sing").html("Регистрация");
       $("#defaultRegisterFormFirstName").attr("placeholder","Имя");
       $("#defaultRegisterFormEmail").attr("placeholder","E-mail адрес");
       $("#defaultRegisterFormPassword").attr("placeholder","Пароль");
@@ -165,7 +170,7 @@ $('a[href*="#s"]').on('click', function (e) {
   e.preventDefault();
  
   $('html, body').animate({
-    scrollTop: $($(this).attr('href')).offset().top
+    scrollTop: $($(this).attr('href')).offset().top-90
   }, 1000, 'linear');
 });
 
