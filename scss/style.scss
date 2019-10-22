@@ -665,7 +665,7 @@ footer .col-12{
         position: initial;
         right: 0;
         margin-top: 5em;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .rew_it{
         height: 450px;
@@ -710,7 +710,7 @@ footer .col-12{
         border-radius: 13px;
     }
     .schedule {
-        height: 100vh;
+        height: auto;
         background: url(../img/Block1_header.png) center no-repeat;
         background-size: cover;
     }
@@ -748,7 +748,11 @@ footer .col-12{
     }
 }
 
-@media screen and (orientation:landscape){
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
 
 
     .schedule {
@@ -759,4 +763,30 @@ footer .col-12{
     }
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .schedule {
+        height: auto;
+    }
+    .main_text {
+        display: none;
+    }
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .schedule {
+        height: auto;
+    }
+    .main_text {
+        display: none;
+    }
+}
 
