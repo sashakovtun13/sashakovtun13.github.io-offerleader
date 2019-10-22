@@ -155,7 +155,6 @@ border-radius: 12px;
     position: absolute;
     bottom: 0;
     right: 20px;
-    
     margin-bottom: 10vh;
     text-align: right;
 }
@@ -659,11 +658,11 @@ footer .col-12{
 }
 @media screen and (max-width: 480px) {
     .forms{
-    
-        margin-top: 12vh;
+        margin-top: 18vh;
         height: 80vh;
     }
     .main_text {
+        display: none;
         right: 0;
         margin-top: 100px;
         margin-bottom: 5px;
@@ -711,7 +710,7 @@ footer .col-12{
         border-radius: 13px;
     }
     .schedule {
-        
+        height: 100vh;
         background: url(../img/Block1_header.png) center no-repeat;
         background-size: cover;
     }
@@ -728,14 +727,17 @@ footer .col-12{
         font-family: Rubik;
         font-style: normal;
         font-weight: 300;
-        font-size: 50px;
-        line-height: 57px;
+        font-size: 40px;
+        line-height: 40px;
         text-transform: uppercase;
         color: #FFFFFF;
         text-align: center;
     }
 }
 @media screen and (max-width: 320px){
+    .schedule {
+        height: 100vh;
+    }
     .main_text {
         right: 0;
         margin-top: 100px;
