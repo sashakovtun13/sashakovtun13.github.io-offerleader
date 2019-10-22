@@ -658,13 +658,13 @@ footer .col-12{
 }
 @media screen and (max-width: 480px) {
     .forms{
-        margin-top: 18vh;
-        height: 80vh;
+        margin-top: 13vh;
+        height: 340px;
     }
     .main_text {
-        display: none;
+        position: initial;
         right: 0;
-        margin-top: 100px;
+        margin-top: 5em;
         margin-bottom: 5px;
     }
     .rew_it{
@@ -743,4 +743,20 @@ footer .col-12{
         margin-top: 100px;
         display: none;
     }
+    .forms{
+        margin-top: 18vh;
+    }
 }
+
+@media screen and (orientation:landscape){
+
+
+    .schedule {
+        height: auto;
+    }
+    .main_text {
+        display: none;
+    }
+}
+
+
